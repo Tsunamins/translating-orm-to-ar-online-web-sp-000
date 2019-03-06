@@ -5,9 +5,7 @@ class Dog < ActiveRecord::Base
   
    def initialize(name:, breed:)
     @name = name 
-    @breed = breed 
-    
-    
+    @breed = breed
   end
   
    def save(hash)
