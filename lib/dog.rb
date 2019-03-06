@@ -11,7 +11,8 @@ class Dog < ActiveRecord::Base
   end
   
    def save(hash)
-     
+     hash.each do |key, value|
+       
   
    
   
