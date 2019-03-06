@@ -13,6 +13,7 @@ class Dog < ActiveRecord::Base
    def save(hash)
      hash.each do |key, value|
        
+       
   
    
   
