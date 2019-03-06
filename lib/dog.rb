@@ -10,7 +10,8 @@ class Dog < ActiveRecord::Base
     
   end
   
-   def save 
+   def save(hash)
+     
   
    
   
